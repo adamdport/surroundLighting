@@ -1,14 +1,6 @@
 
 $(document).ready(function(){
-    //if ($.browser.webkit){
-        alert(typeof $.browser);
-        $('#video').html('Our pants are fancy. <a href="//google.com/chrome">Use Chrome</a>');
-        return;
-    //}
-    
     SLMagic();
-    
-    
 });
 
 function SLMagic(){
