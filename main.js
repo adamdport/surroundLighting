@@ -1,5 +1,11 @@
 
 $(document).ready(function(){
+    if (!window.chrome){
+        $('#video')
+        	.html('Our pants are fancy. <a href="//google.com/chrome">Get Chrome</a>')
+        	.css('padding-top','190px');
+        return;
+    }
     SLMagic();
 });
 
